@@ -1,7 +1,6 @@
 # Gupshup WhatsApp SDK
 
-Este pacote fornece uma interface simples para envio de mensagens pela API Gupshup WhatsApp.
-
+This package provides a simple interface for sending messages via the Gupshup WhatsApp API.
 ## Instalação.
 
 ```bash
@@ -12,8 +11,8 @@ pip install ghup-whatsapp
 ```bash
 from ghup import Client
 
-client = Client(app_name="RedeBR", api_token="SEU_TOKEN", app_number="5561987654321", api_id="SEU_ID")
-client.send_text(destination_number="5521972260072", destination_text="Olá, mundo!")
+client = Client(app_name="YOUR_APP", api_token="YOUR_TOKEN", app_number="5561987654321", api_id="YOUR_ID")
+client.send_text(destination_number="5561987654321", destination_text="Olá, mundo!")
 ```
 ### ✅ `LICENSE` (MIT)
 
