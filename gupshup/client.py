@@ -330,5 +330,3 @@ class Client:
             return response.read().decode()
         except Exception as e:
             return f"Erro ao marcar como lida: {e}"
-
-
