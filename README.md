@@ -5,12 +5,12 @@ Este pacote fornece uma interface simples para envio de mensagens pela API Gupsh
 ## Instalação.
 
 ```bash
-pip install gupshup-whatsapp
+pip install ghup-whatsapp
 ```
 ## Exemplo de uso.
 
 ```bash
-from gupshup import Client
+from ghup import Client
 
 client = Client(app_name="RedeBR", api_token="SEU_TOKEN", app_number="5561987654321", api_id="SEU_ID")
 client.send_text(destination_number="5521972260072", destination_text="Olá, mundo!")

@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-from gupshup.send import Send
+from ghup.send import Send
 
 
 class Client:

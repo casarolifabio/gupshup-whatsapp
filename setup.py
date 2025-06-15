@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="gupshup-whatsapp",
+    name="ghup-whatsapp",
     version="0.1.0",
     description="Python SDK para integração com a API de WhatsApp da Gupshup",
     long_description=open("README.md").read(),
